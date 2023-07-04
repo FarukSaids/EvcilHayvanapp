@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">evcilhayvanapp</string>
+    <string name="message">Message</string>
+    <string name="bildirim_g_nderme">Bildirim Gönderme</string>
+    <string name="hatirlatici_ekle">Hatirlatici Ekle</string>
+    <string name="title">Title</string>
+</resources>

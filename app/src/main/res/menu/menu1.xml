@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/add_post"  android:fontFamily="@font/font2" android:title="Add Post"></item>
+    <item android:id="@+id/signout"  android:fontFamily="@font/font1" android:title="Sign Out"></item>
+    <item
+        android:id="@+id/hayvanbilgileri"
+        android:fontFamily="@font/font1"
+        android:title="Hayvan Bilgileri"
+        ></item>
+    <item
+        android:id="@+id/hatırlatıcı"
+        android:fontFamily="@font/font1"
+        android:title="Hatırlatıcım"
+
+
+        >
+
+    </item>
+</menu>

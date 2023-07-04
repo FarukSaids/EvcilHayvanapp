@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973905390077",
+    "project_id": "evcilhayvanapp",
+    "storage_bucket": "evcilhayvanapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973905390077:android:9e7d2eec7ccfb9bbe41194",
+        "android_client_info": {
+          "package_name": "com.example.evcilhayvanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973905390077-ns8ku4lhkmh27a3eudl1gn2je5vvb9o3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMeBOmppZA9VtCvBHlMtLM93TYOuNxgOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973905390077-ns8ku4lhkmh27a3eudl1gn2je5vvb9o3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

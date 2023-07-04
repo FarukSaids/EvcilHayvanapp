@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="15dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="8dp"
+        >
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="3dp"
+            app:cardElevation="10dp"
+
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+
+                android:padding="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/userImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/mainekran"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="8dp" />
+
+                    <TextView
+                        android:id="@+id/recyclerEmailtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User Email"
+                        android:fontFamily="@font/font5"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_margin="20dp" />
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="12dp"
+                    android:layout_gravity="center"
+
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/recyclerImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:maxWidth="500dp"
+                        android:maxHeight="400dp"
+                        android:layout_gravity="center"
+
+
+                        />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="3dp"
+            app:cardElevation="4dp"
+            app:cardMaxElevation="12dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/recyclerEmailtext1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comment :"
+                    android:fontFamily="@font/font1"
+                    android:textColor="@color/black"
+
+                    android:textSize="20sp"
+                    android:layout_margin="0dp" />
+                <TextView
+                    android:id="@+id/recyclerCommentText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/font1"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:text="merhabaa" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
